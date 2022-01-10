@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item android:id="@+id/nav_dashbord"
+            android:icon="@drawable/ic_baseline_dashboard_24"
+            android:title="@string/dashbord">
+        </item>
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/home">
+        </item>
+
+        <item android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_baseline_power_settings_new_24"
+            android:title="@string/logout">
+        </item>
+
+        <item android:id="@+id/nav_share"
+            android:icon="@drawable/ic_baseline_share_24"
+            android:title="@string/Share">
+        </item>
+
+
+
+    </group>
+
+
+
+
+</menu>
